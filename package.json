@@ -1,5 +1,5 @@
 {
-  "name": "redux-storage-engine-localStorageFakePromise",
+  "name": "redux-storage-engine-localstoragefakepromise",
   "version": "1.0.0",
   "description": "window.localStorage engine for redux-storage (no Promises required)",
   "main": "build/index.js",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/michaelcontento/redux-storage-engine-localStorageFakePromise.git"
+    "url": "https://github.com/michaelcontento/redux-storage-engine-localstoragefakepromise.git"
   },
-  "homepage": "https://github.com/michaelcontento/redux-storage-engine-localStorageFakePromise",
+  "homepage": "https://github.com/michaelcontento/redux-storage-engine-localstoragefakepromise",
   "keywords": [
     "redux",
     "redux-storage",

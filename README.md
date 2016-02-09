@@ -1,34 +1,34 @@
-# [redux-storage-engine-localStorageFakePromise][]
+# [redux-storage-engine-localstoragefakepromise][]
 
-[![build](https://travis-ci.org/michaelcontento/redux-storage-engine-localStorageFakePromise.svg)](https://travis-ci.org/michaelcontento/redux-storage-engine-localStorageFakePromise)
-[![dependencies](https://david-dm.org/michaelcontento/redux-storage-engine-localStorageFakePromise.svg)](https://david-dm.org/michaelcontento/redux-storage-engine-localStorageFakePromise)
-[![devDependencies](https://david-dm.org/michaelcontento/redux-storage-engine-localStorageFakePromise/dev-status.svg)](https://david-dm.org/michaelcontento/redux-storage-engine-localStorageFakePromise#info=devDependencies)
+[![build](https://travis-ci.org/michaelcontento/redux-storage-engine-localstoragefakepromise.svg)](https://travis-ci.org/michaelcontento/redux-storage-engine-localstoragefakepromise)
+[![dependencies](https://david-dm.org/michaelcontento/redux-storage-engine-localstoragefakepromise.svg)](https://david-dm.org/michaelcontento/redux-storage-engine-localstoragefakepromise)
+[![devDependencies](https://david-dm.org/michaelcontento/redux-storage-engine-localstoragefakepromise/dev-status.svg)](https://david-dm.org/michaelcontento/redux-storage-engine-localstoragefakepromise#info=devDependencies)
 
-[![license](https://img.shields.io/npm/l/redux-storage-engine-localStorageFakePromise.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-localStorageFakePromise)
-[![npm version](https://img.shields.io/npm/v/redux-storage-engine-localStorageFakePromise.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-localStorageFakePromise)
-[![npm downloads](https://img.shields.io/npm/dm/redux-storage-engine-localStorageFakePromise.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-localStorageFakePromise)
-[![Code Climate](https://codeclimate.com/github/michaelcontento/redux-storage-engine-localStorageFakePromise/badges/gpa.svg)](https://codeclimate.com/github/michaelcontento/redux-storage-engine-localStorageFakePromise)
+[![license](https://img.shields.io/npm/l/redux-storage-engine-localstoragefakepromise.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-localstoragefakepromise)
+[![npm version](https://img.shields.io/npm/v/redux-storage-engine-localstoragefakepromise.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-localstoragefakepromise)
+[![npm downloads](https://img.shields.io/npm/dm/redux-storage-engine-localstoragefakepromise.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-localstoragefakepromise)
+[![Code Climate](https://codeclimate.com/github/michaelcontento/redux-storage-engine-localstoragefakepromise/badges/gpa.svg)](https://codeclimate.com/github/michaelcontento/redux-storage-engine-localstoragefakepromise)
 
 `window.localStorage` based engine for [redux-storage][] - like
-[redux-storage-engine-localStorage][] - but it does not require a environment
+[redux-storage-engine-localstorage][] - but it does not require a environment
 with ES6 Promises.
 
 ## Warning
 
-In contrast to [redux-storage-engine-localStorage][] this engine can be used
+In contrast to [redux-storage-engine-localstorage][] this engine can be used
 with old browsers like IE<=11. **BUT** the best solution for you would be to
 use a Promise polyfill like [es6-promise][].
 
 ## Installation
 
-    npm install --save redux-storage-engine-localStorageFakePromise
+    npm install --save redux-storage-engine-localstoragefakepromise
 
 ## Usage
 
-Similar to [redux-storage-engine-localStorage][]:
+Similar to [redux-storage-engine-localstorage][]:
 
 ```js
-import createEngine from 'redux-storage-engine-localStorageFakePromise';
+import createEngine from 'redux-storage-engine-localstoragefakepromise';
 const engine = createEngine('my-save-key');
 ```
 
@@ -56,6 +56,6 @@ const engine = createEngine('my-save-key');
     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
   [redux-storage]: https://github.com/michaelcontento/redux-storage
-  [redux-storage-engine-localStorage]: https://github.com/michaelcontento/redux-storage-engine-localStorage
-  [redux-storage-engine-localStorageFakePromise]: https://github.com/michaelcontento/redux-storage-engine-localStorageFakePromise
+  [redux-storage-engine-localstorage]: https://github.com/michaelcontento/redux-storage-engine-localstorage
+  [redux-storage-engine-localstoragefakepromise]: https://github.com/michaelcontento/redux-storage-engine-localstoragefakepromise
   [es6-promise]: https://www.npmjs.com/package/es6-promise
