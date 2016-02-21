@@ -1,6 +1,6 @@
 # [redux-storage-engine-localstoragefakepromise][]
 
-[![build](https://travis-ci.org/michaelcontento/redux-storage-engine-localstoragefakepromise.svg)](https://travis-ci.org/michaelcontento/redux-storage-engine-localstoragefakepromise)
+[![build](https://travis-ci.org/michaelcontento/redux-storage-engine-localstoragefakepromise.svg?branch=master)](https://travis-ci.org/michaelcontento/redux-storage-engine-localstoragefakepromise)
 [![dependencies](https://david-dm.org/michaelcontento/redux-storage-engine-localstoragefakepromise.svg)](https://david-dm.org/michaelcontento/redux-storage-engine-localstoragefakepromise)
 [![devDependencies](https://david-dm.org/michaelcontento/redux-storage-engine-localstoragefakepromise/dev-status.svg)](https://david-dm.org/michaelcontento/redux-storage-engine-localstoragefakepromise#info=devDependencies)
 
