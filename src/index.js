@@ -4,7 +4,7 @@ function createFakePromise(thenResult) {
     return {
         then: (cb = noop) => {
             cb(thenResult);
-            return createFakePromise();
+            return createFakePromise(thenResult);
         },
         catch: () => createFakePromise()
     };
