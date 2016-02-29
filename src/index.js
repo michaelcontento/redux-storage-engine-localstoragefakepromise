@@ -3,8 +3,7 @@ const noop = () => {};
 function createFakePromise(thenResult) {
     return {
         then: (cb = noop) => {
-            cb(thenResult);
-            return createFakePromise();
+            return createFakePromise(cb(thenResult));
         },
         catch: () => createFakePromise()
     };
