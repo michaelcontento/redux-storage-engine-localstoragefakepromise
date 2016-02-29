@@ -42,6 +42,15 @@ describe('engine', () => {
             spy.should.have.been.calledWith({ key: 'value' });
         });
 
+        it('should pass the result of .then forward', () => {
+            const engine = localStorageFakePromise('key');
+            const spy = sinon.spy();
+
+            engine.load().then(() => 'nextValue').then(spy);
+
+            spy.should.have.been.calledWith('nextValue');
+        });
+
         it('should support then without a callback', () => {
             const engine = localStorageFakePromise('foo');
 
