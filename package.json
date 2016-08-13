@@ -3,7 +3,6 @@
   "version": "1.0.2",
   "description": "window.localStorage engine for redux-storage (no Promises required)",
   "main": "build/index.js",
-  "jsnext:main": "src/index.js",
   "scripts": {
     "test": "make lint test build"
   },
