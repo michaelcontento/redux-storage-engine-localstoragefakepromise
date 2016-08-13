@@ -1,6 +1,6 @@
 {
   "name": "redux-storage-engine-localstoragefakepromise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "window.localStorage engine for redux-storage (no Promises required)",
   "main": "build/index.js",
   "scripts": {
