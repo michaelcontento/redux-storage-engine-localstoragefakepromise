@@ -96,7 +96,7 @@ describe('engine', () => {
     describe('save', () => {
         let oldLocalStorage;
         beforeEach(() => {
-            oldLocalStorage = root.localStorage;
+            oldLocalStorage = global.localStorage;
             global.localStorage = {
                 setItem: sinon.spy()
             };
