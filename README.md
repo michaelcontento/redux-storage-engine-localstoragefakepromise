@@ -16,7 +16,7 @@ with ES6 Promises.
 # Moved to the react-stack organisation
 
 My focus has left the node / react ecosystem and this module has got a new home
-over at [react-stack](https://github.com/react-stack/redux-storage-decorator-immutablejs)!
+over at [react-stack](https://github.com/react-stack/redux-storage-engine-localstoragefakepromise)!
 
 ## Warning
 
